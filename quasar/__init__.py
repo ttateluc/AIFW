@@ -1,5 +1,5 @@
 """
-Quasar
+aifw
 
 A fully artificaially intelligent firewall
 """

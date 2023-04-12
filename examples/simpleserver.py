@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from flask import Flask, request
-from quasar import DetectorMiddleware
+from aifw import DetectorMiddleware
 
 app = Flask(__name__)
 app.wsgi_app = DetectorMiddleware(app.wsgi_app)

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "quasar-firewall"
+name = "aifw"
 version = "1.0.0"
 description = "An AI powered firewall designed to detect mallicious HTTP requests and decide weather to process them or not."
 authors = ["kaptcha"]

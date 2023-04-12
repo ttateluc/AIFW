@@ -12,8 +12,8 @@ from .request_parser import BodyParser, QueryParser
 def get_directory(dir_name: str):
     from pathlib import Path
 
-    path_to_quasar = Path(__file__).parents[0]
-    return str(path_to_quasar / dir_name)
+    path_to_aifw = Path(__file__).parents[0]
+    return str(path_to_aifw / dir_name)
 
 
 class DetectorMiddleware(object):

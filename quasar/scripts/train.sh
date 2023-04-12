@@ -1,2 +1,2 @@
-python -m quasar -t
+python -m aifw -t
 timeout 10

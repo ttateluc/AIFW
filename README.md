@@ -1,12 +1,12 @@
 > Note: Still under development, use at your own risk
 
-# Quasar Firewall
+# aifw
 An AI powered firewall designed to detect malicious HTTP requests and decide weather to process them or not.
 
 ## Python CLI Reference
 **Syntax:**
 ```bash
-python -m quasar [-h] [-t | -s target port]
+python -m aifw [-h] [-t | -s target port]
 ```
 
 - `options`
@@ -29,16 +29,16 @@ train.sh
 ### With Python Module
 Example:
 ```bash
-python3 -m quasar -t
+python3 -m aifw -t
 ```
 
 ## Using the Firewall
-There are two main ways to use Quasar, as a proxy server and as a middleware for Flask.
+There are two main ways to use aifw, as a proxy server and as a middleware for Flask.
 
 ### As Flask Middleware
 *Note: Model must be trained before starting proxy server*
 ```python
-from quasar import DetectorMiddleware
+from aifw import DetectorMiddleware
 ...
 app.wsgi_app = DetectorMiddleware(app.wsgi_app)
 ...
