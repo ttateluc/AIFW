@@ -1,6 +1,8 @@
 > Note: Still under development, use at your own risk
 
-# aifw
+# aifw!
+[DALL·E 2023-04-12 16 04 32 - computer on fire in space, digital art](https://user-images.githubusercontent.com/97220909/231604979-9375937a-9006-46a2-b6b8-c9621ff88539.png)
+
 An AI powered firewall designed to detect malicious HTTP requests and decide weather to process them or not.
 
 ## Python CLI Reference
